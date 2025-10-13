@@ -1,23 +1,99 @@
-\documentclass[12pt, a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 
+% Pacotes essenciais
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontec}
-\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[portuguese]{babel}
+\usepackage{microtype}
+\usepackage{geometry}
+\geometry{margin=2.5cm}
 \usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{hyperref}
+\usepackage{mwe} % fornece imagens de exemplo para testes
 \usepackage{booktabs}
-\usepackage{natbib}
-\bibliography{plainmat}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
 
-\title{Artigo Computação Quântica}
-\autor{Hygor Marques}
+% Bibliografia via biblatex (usa biber)
+\usepackage[backend=biber,style=numeric,sorting=nyt]{biblatex}
+\addbibresource{references.bib}
+
+\title{Título do Artigo: Um Template de Teste}
+\author{Seu Nome \\ \small Instituto / Universidade}
 \date{\today}
 
+\begin{document}
+
+\maketitle
+
 \begin{abstract}
-    Resumo para ser feito no final
+Este é um template mínimo para testar uma compilação LaTeX. Contém exemplo de figura, tabela, equação, listas e referências. Edite conforme necessário.
 \end{abstract}
 
 \section{Introdução}
+Escreva aqui a introdução. Exemplo de citação: \cite{einstein1905}.
 
-Começando pelo começo
+\section{Método}
+Descrição do método. Um exemplo de lista:
+\begin{itemize}
+  \item Passo 1: preparar dados;
+  \item Passo 2: executar experimento;
+  \item Passo 3: analisar resultados.
+\end{itemize}
+
+\subsection{Equação de exemplo}
+Uma equação alinhada:
+\begin{align}
+E &= mc^2,\\
+F &= ma.
+\end{align}
+
+\section{Resultados}
+Exemplo de figura (imagem de placeholder fornecida pelo pacote mwe):
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=0.6\textwidth]{example-image}
+  \caption{Figura de exemplo para teste. Substitua pela sua imagem.}
+  \label{fig:exemplo}
+\end{figure}
+
+Exemplo de tabela:
+\begin{table}[ht]
+  \centering
+  \caption{Tabela de exemplo}
+  \begin{tabular}{lcr}
+    \toprule
+    Método & Precisão (\%) & Tempo (s) \\
+    \midrule
+    A & 92.3 & 12.1 \\
+    B & 88.7 & 8.4 \\
+    \bottomrule
+  \end{tabular}
+  \label{tab:exemplo}
+\end{table}
+
+\section{Conclusão}
+Resumo e possíveis direções futuras.
+
+\section*{Agradecimentos}
+Agradecimentos curtos (se houver).
+
+\printbibliography
+
+% Arquivo de bibliografia embutido para testes (será escrito como references.bib na compilação)
+\begin{filecontents}{references.bib}
+@article{einstein1905,
+  author = {Einstein, Albert},
+  title = {Zur Elektrodynamik bewegter K{\"o}rper},
+  journal = {Annalen der Physik},
+  year = {1905},
+  volume = {322},
+  number = {10},
+  pages = {891--921},
+  doi = {10.1002/andp.19053221004}
+}
+\end{filecontents}
+
+\end{document}
