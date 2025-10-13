@@ -22,8 +22,7 @@
 * [How Does a Quantum Computer Work?](https://www.youtube.com/watch?v=g_IaVepNDT4&pp=ygUfcXVhbnR1bSBjb21wdXRpbmcgZm9yIGJlZ2lubmVycw%3D%3D "How Does a Quantum Computer Work?")
 
 ### Playlist UFPR
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=xlgAw69QReuPpr92&list=PL-5ieW_feQNT3_rR5DB6xFdA60PjSTi7h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[Aulas ministradas pelo professor Murilo da Silva para a UFPR sobre computação quântica](https://www.youtube.com/playlist?list=PL-5ieW_feQNT3_rR5DB6xFdA60PjSTi7h)
 
 ### Sobre
 
