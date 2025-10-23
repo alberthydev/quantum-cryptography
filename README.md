@@ -6,12 +6,15 @@
 * Introduction to Classical and Quantum Computing | Thomas G. Wong
 * Quantum Computation and Quantum Information | Michael Nielsen & Isaac Chuang
 * [Quantum Computing for Computer Scientists | Noson S. Yanofsky &amp; Mirco A. Mannucci](https://ccpd.ciens.ucv.ve/wp-content/uploads/2025/03/Noson-S.-Yanofsky-Mirco-A.-Mannucci-Quantum-Computing-for-Computer-Scientists.pdf)
+* [Uma introdução a Computação Quântica | Sociedade Brasileira de Matemática Aplicada e Computacional](https://www.inf.ufpr.br/murilo/quantica/notes/renatoportugal.pdf)
 
 ### Artigos:
 
 * [Quantum Computing: Circuits, Algorithms, and Applications](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10423012)
 * [An overview of Quantum Cryptography and Shor’s Algorithm](https://www.warse.org/IJATCSE/static/pdf/file/ijatcse214952020.pdf)
 * [Quantum cryptography: key distribution and beyond](https://arxiv.org/abs/1802.05517)
+* [Notas sobre Computação Quântica | Henrique Hepp](https://www.inf.ufpr.br/murilo/quantica/notes/Notas-CQ.pdf)
+* [ALGORITMOS DE SHOR E GROVER E SEUS IMPACTOS EM PROTOCOLOS CRIPTOGRÁFICOS | ABNER FONTEBOM BISSOLLI COSTA](https://www.inf.ufpr.br/murilo/quantica/notes/AbnerTCC.pdf)
 
 ### Vídeos:
 
